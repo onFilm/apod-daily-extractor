@@ -9,8 +9,10 @@ writeToJSONFile();
 
 function readJSONFile() {
     try {
+        console.log('Inside readJSONFile method);
         let jsonString = filesystem.readFileSync('extracted_data.json', 'utf8');
         json = JSON.parse(jsonString);
+        console.log('JSON string: ', json);
     } catch (error) {
         console.log('error reading file extracted_data.json: ', error);
     }
@@ -18,10 +20,8 @@ function readJSONFile() {
 
 function writeToJSONFile() {
     try {
-        filesystem.writeFileSync('extracted_data.json', JSON.stringify(json, null, 2),
-            'utf8', function (err) {
-                console.log(response.data);
-            });
+        console.log('Inside writeToJSONFile method);
+        filesystem.writeFileSync('extracted_data.json', JSON.stringify(json, null, 2), 'utf8');
     } catch (error) {
         console.log('error writing to file extracted_data.json: ', error);
     }
