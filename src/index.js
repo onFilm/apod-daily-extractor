@@ -5,7 +5,6 @@ let json;
 
 readJSONFile();
 callAPODApi();
-writeToJSONFile();
 
 function readJSONFile() {
     try {
@@ -38,6 +37,7 @@ function callAPODApi() {
             console.log(error);
         })
         .finally(function () {
+            writeToJSONFile();
             console.log('finally block executed!')
         });
 }
