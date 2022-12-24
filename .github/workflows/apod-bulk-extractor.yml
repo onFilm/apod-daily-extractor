@@ -40,7 +40,7 @@ jobs:
               git config --global user.email 'mail2prajwal12@gmail.com'
               git add .
               git commit --date="$commitdate 09:30:00" -m "Automated data update $thedate"
-              #git push
+              git push
 
               thedate=$( date -d "$thedate + 1 days" +%Y-%m-%d ) # increment by one day
           done
