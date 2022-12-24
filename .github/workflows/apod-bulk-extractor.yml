@@ -39,7 +39,7 @@ jobs:
               git config --global user.name 'automated_prajwal'
               git config --global user.email 'mail2prajwal12@gmail.com'
               git add .
-              git --amend --date="$commitdate 09:30:00" commit -m "Automated data update $thedate"
+              git commit --amend --date="$commitdate 09:30:00" -m "Automated data update $thedate"
               #git push
 
               thedate=$( date -d "$thedate + 1 days" +%Y-%m-%d ) # increment by one day
