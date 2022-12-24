@@ -16,6 +16,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: git checkout
+        uses: actions/checkout@v2
       - name: run shell script
         run: |
           #!/bin/bash
@@ -26,7 +28,7 @@ jobs:
           while [ "$thedate" != "$enddate" ]; do
               printf 'The date is "%s"\n' "$thedate"
               response=$(curl --location --request GET 'https://apod.ellanan.com/api?date='$thedate)
-              echo "$response" > "extracted_data/$thedate.json"
+              echo "$response" > "/extracted_data/$thedate.json"
               thedate=$( date -d "$thedate + 1 days" +%Y-%m-%d ) # increment by one day
           done
           
