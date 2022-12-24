@@ -2,14 +2,15 @@ name: apod-bulk-extractor
 
 on:
   workflow_dispatch:
-    startdate:
-      description: 'Please enter start date for data extraction, YYYY-MM-DD'
-      required: true
-      default: '2022-01-01'
-    enddate:
-      description: 'Please enter end date for data extraction, YYYY-MM-DD'
-      required: true
-      default: '2022-01-05'
+    inputs:
+      startdate:
+        description: 'Please enter start date for data extraction, YYYY-MM-DD'
+        required: true
+        default: '2022-01-01'
+      enddate:
+        description: 'Please enter end date for data extraction, YYYY-MM-DD'
+        required: true
+        default: '2022-01-05'
 
 jobs:
   test:
