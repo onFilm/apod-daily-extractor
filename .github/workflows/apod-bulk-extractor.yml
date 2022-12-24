@@ -1,0 +1,38 @@
+name: test
+
+on:
+  workflow_dispatch:
+    startdate:
+      description: 'Please enter start date for data extraction, YYYY-MM-DD'
+      required: true
+      default: '2022-01-01'
+    enddate:
+      description: 'Please enter end date for data extraction, YYYY-MM-DD'
+      required: true
+      default: '2022-01-05'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run shell script
+        run: |
+          #!/bin/bash
+          startdate='${{ github.event.inputs.startdate }}'
+          enddate='${{ github.event.inputs.enddate }}'
+          thedate=$( date -d "$startdate" +%Y-%m-%d )
+          
+          while [ "$thedate" != "$enddate" ]; do
+              printf 'The date is "%s"\n' "$thedate"
+              response=$(curl --location --request GET 'https://apod.ellanan.com/api?date='$thedate)
+              echo "$response" > "extracted_data/$thedate.json"
+              thedate=$( date -d "$thedate + 1 days" +%Y-%m-%d ) # increment by one day
+          done
+          
+          ls -la
+          echo "================================="
+          cat 2022-01-01.json
+          echo "================================="
+          cat 2022-01-05.json
+          echo "================================="
+          
