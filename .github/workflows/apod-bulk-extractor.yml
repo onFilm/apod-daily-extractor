@@ -35,7 +35,7 @@ jobs:
               thedate=$( date -d "$thedate + 1 days" +%Y-%m-%d ) # increment by one day
           done
           
-          ls -la
+          cd extracted_data && ls -lrta
           echo "================================="
           cat 2022-01-01.json
           echo "================================="
