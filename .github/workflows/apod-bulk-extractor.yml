@@ -1,4 +1,4 @@
-name: test
+name: apod-bulk-extractor
 
 on:
   workflow_dispatch:
