@@ -21,6 +21,10 @@ jobs:
       - name: run shell script
         run: |
           #!/bin/bash
+
+          pwd
+          mkdir extracted_data
+
           startdate='${{ github.event.inputs.startdate }}'
           enddate='${{ github.event.inputs.enddate }}'
           thedate=$( date -d "$startdate" +%Y-%m-%d )
@@ -36,6 +40,6 @@ jobs:
           echo "================================="
           cat 2022-01-01.json
           echo "================================="
-          cat 2022-01-05.json
+          cat 2022-01-04.json
           echo "================================="
           
