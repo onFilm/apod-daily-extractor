@@ -17,7 +17,7 @@ jobs:
       - name: run python shell script
         run: |
           pwd
-          ln -s /usr/lib/python3/dist-packages/requests .
+          ln -s /usr/lib/python3/dist-packages/requests /opt/hostedtoolcache/Python/3.11.1/x64/bin/python
           import os
           import requests
 
