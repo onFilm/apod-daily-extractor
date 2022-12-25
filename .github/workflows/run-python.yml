@@ -1,0 +1,29 @@
+name: Run Python Script
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import os
+            import requests
+
+            print("Directory contents:")
+            for f in os.listdir():
+                print(f)
+            
+            baseURL = 'https://apod.ellanan.com/api'
+            response = requests.get(baseURL)
+                print('---------------------------------------------------------------------------------------------')
+                print(response.status_code)
+                print('---------------------------------------------------------------------------------------------')
+                print(response.json())
