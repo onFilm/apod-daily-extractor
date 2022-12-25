@@ -17,7 +17,8 @@ jobs:
       - uses: jannekem/run-python-script-action@v1
         with:
           script: |
-            ln -s /usr/lib/python3/dist-packages/requests '/opt/hostedtoolcache/Python/3.11.1/x64/bin/python'
+            pwd
+            ln -s /usr/lib/python3/dist-packages/requests .
             import os
             import requests
 
