@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: run pip3 install requests
+      - name: run pip install requests
         run: |
-          pip3 install requests==2.20.0
+          python3 -m pip install requests
       - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
