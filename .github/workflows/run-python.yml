@@ -16,6 +16,8 @@ jobs:
           python-version: '3.x'
       - name: run python shell script
         run: |
+          pip show
+
           import os
           import requests
 
@@ -29,4 +31,3 @@ jobs:
           print(response.status_code)
           print('---------------------------------------------------------------------------------------------')
           print(response.json())
-        shell: python
