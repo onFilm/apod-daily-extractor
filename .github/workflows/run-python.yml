@@ -14,11 +14,14 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+      - name: run shell script
+        run: |
+          #!/bin/bash
+          pwd
+          ln -s /usr/lib/python3/dist-packages/requests .
       - uses: jannekem/run-python-script-action@v1
         with:
           script: |
-            pwd
-            ln -s /usr/lib/python3/dist-packages/requests .
             import os
             import requests
 
