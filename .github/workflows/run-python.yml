@@ -8,9 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: run pip install requests
-        run: |
-          python3 -m pip install requests
       - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
@@ -19,7 +16,6 @@ jobs:
           script: |
             add_path("/usr/lib/python3/dist-packages")
             import os
-            import requests
 
             print("Directory contents:")
             for f in os.listdir():
