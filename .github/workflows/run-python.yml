@@ -16,8 +16,6 @@ jobs:
           python-version: '3.x'
       - name: run python shell script
         run: |
-          pwd
-
           import os
           import requests
 
