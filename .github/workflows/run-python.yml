@@ -14,24 +14,21 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-      - name: run shell script
+      - name: run python shell script
         run: |
-          #!/bin/bash
           pwd
           ln -s /usr/lib/python3/dist-packages/requests .
-      - uses: jannekem/run-python-script-action@v1
-        with:
-          script: |
-            import os
-            import requests
+          import os
+          import requests
 
-            print("Directory contents:")
-            for f in os.listdir():
-                print(f)
-            
-            baseURL = 'https://apod.ellanan.com/api'
-            response = requests.get(baseURL)
-            print('---------------------------------------------------------------------------------------------')
-            print(response.status_code)
-            print('---------------------------------------------------------------------------------------------')
-            print(response.json())
+          print("Directory contents:")
+          for f in os.listdir():
+              print(f)
+          
+          baseURL = 'https://apod.ellanan.com/api'
+          response = requests.get(baseURL)
+          print('---------------------------------------------------------------------------------------------')
+          print(response.status_code)
+          print('---------------------------------------------------------------------------------------------')
+          print(response.json())
+        shell: python
