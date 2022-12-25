@@ -16,7 +16,7 @@ jobs:
           python-version: '3.x'
       - name: run python shell script
         run: |
-          cd /opt/hostedtoolcache/Python/3.11.1/x64
+          cd /opt/hostedtoolcache/Python/3.11.1/x64/lib
           ls -ltr
           ln -s "/usr/lib/python3/dist-packages" "/opt/hostedtoolcache/Python/3.11.1/x64"      
 
