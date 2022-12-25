@@ -14,10 +14,14 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+      - name: Display the path
+          run: |
+            cd /opt/hostedtoolcache/Python/3.11.1/x64
+            ls -ltr
+            ln -s "/usr/lib/python3/dist-packages" "/opt/hostedtoolcache/Python/3.11.1/x64"
+      
       - name: run python shell script
         run: |
-          pip show
-
           import os
           import requests
 
