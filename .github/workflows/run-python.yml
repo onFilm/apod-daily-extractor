@@ -8,28 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: run pip install requests
+      - name: run python script
         run: |
-          python3 -m pip install requests
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-      - name: run python shell script
-        run: |
-          cd /opt/hostedtoolcache/Python/3.11.1/x64/lib
-          ls -ltr
-          ln -s "/usr/lib/python3/dist-packages" "/opt/hostedtoolcache/Python/3.11.1/x64"      
-
-          import os
-          import requests
-
-          print("Directory contents:")
-          for f in os.listdir():
-              print(f)
-          
-          baseURL = 'https://apod.ellanan.com/api'
-          response = requests.get(baseURL)
-          print('---------------------------------------------------------------------------------------------')
-          print(response.status_code)
-          print('---------------------------------------------------------------------------------------------')
-          print(response.json())
+          python .github/workflows/basic.py
