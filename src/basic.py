@@ -13,4 +13,5 @@ for file_name in [file for file in os.listdir(path_to_json) if file.endswith('.j
     data = json.load(json_file)
     consolidated_data.append(data)
 
-print(consolidated_data)
+with open('consolidated.json', 'w', encoding='utf-8') as f:
+    json.dump(consolidated_data, f, ensure_ascii=False, indent=4)
