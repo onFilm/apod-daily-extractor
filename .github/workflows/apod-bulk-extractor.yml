@@ -35,17 +35,19 @@ jobs:
               response=$(curl --location --request GET 'https://apod.ellanan.com/api?date='$thedate)
               echo "$response" > extracted_data/"$thedate.json"
               
-              if [ -n "$(git status --porcelain)" ]; then
-                git config --global user.name 'automated_prajwal'
-                git config --global user.email 'mail2prajwal12@gmail.com'
-                git add .
-                git commit --date="$thedate 09:30:00" -m "Automated data update $thedate"
-                git push
-              else
-                echo "no changes";
-              fi
-
               thedate=$( date -d "$thedate + 1 days" +%Y-%m-%d ) # increment by one day
           done
-          
+
+          git status
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git config --global user.name 'automated_prajwal'
+            git config --global user.email 'mail2prajwal12@gmail.com'
+            git add .
+            git commit --date="$thedate 09:30:00" -m "Automated data update $thedate"
+            git push
+          else
+            echo "no changes";
+          fi
+
           cd extracted_data && ls -lrta
