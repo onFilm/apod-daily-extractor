@@ -11,3 +11,14 @@ jobs:
       - name: run python script
         run: |
           python src/basic.py
+      - name: Commit changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config --global user.name 'automated_prajwal'
+            git config --global user.email 'mail2prajwal12@gmail.com'
+            git add .
+            git commit -m "Automated data update"
+            git push
+          else
+            echo "no changes";
+          fi
