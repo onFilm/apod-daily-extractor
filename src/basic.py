@@ -6,7 +6,7 @@ response = requests.get(baseURL)
 print(response.status_code)
 print(response.json())
 
-with open(json_file) as json_file:
+with open("test.json") as json_file:
     json_decoded = json.load(json_file)
     json_decoded["apod"].append(response.json())
 
