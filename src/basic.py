@@ -1,16 +1,11 @@
-import os, json
+import json, requests
+
+baseURL = 'https://apod.ellanan.com/api'
+response = requests.get(baseURL)
 
 with open("consolidated.json") as json_file:
     json_decoded = json.load(json_file)
-
-dir_name = 'extracted_data/'
-for file_name in [file for file in sorted(filter(lambda x: os.path.isfile(os.path.join(dir_name, x)), os.listdir(dir_name))) if file.endswith('.json')]:
-    with open(dir_name + file_name) as json_file:
-      try:
-        data = json.load(json_file)
-        json_decoded["apod"].append(data)
-      except:
-        print("An exception occurred")
+    json_decoded["apod"].append(response.json())
 
 with open('consolidated.json', 'w', encoding='utf-8') as f:
     json.dump(json_decoded, f, ensure_ascii=False, indent=4)
