@@ -1,6 +1,6 @@
 import os, json
 
-with open("test.json") as json_file:
+with open("consolidated.json") as json_file:
     json_decoded = json.load(json_file)
 
 dir_name = 'extracted_data/'
