@@ -10,6 +10,8 @@ with open("test.json") as json_file:
     json_decoded = json.load(json_file)
     json_decoded["apod"].append(response.json())
 
-
 with open('test.json', 'w', encoding='utf-8') as f:
     json.dump(json_decoded, f, ensure_ascii=False, indent=4)
+
+with open("test.json") as json_file:
+    print(json_file)
