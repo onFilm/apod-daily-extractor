@@ -1,0 +1,32 @@
+name: deploy
+on:
+  workflow_run:
+    workflows: ["ci-cd-main"]
+    types:
+      - completed
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Deploy to Oracle Cloud via SSH action
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.ORACLE_HOST }}
+          username: ${{ secrets.ORACLE_USERNAME }}
+          key: ${{ secrets.ORACLE_PRIVATE_KEY }}
+          port: 22
+          script: |
+            #!/bin/sh
+                      
+            # Stop running apod-api Docker Containers
+            sudo docker rm apod-api -f
+            
+            # Free up space
+            sudo docker system prune -a
+
+            # Pull the Docker Image 
+            sudo docker pull mail2prajwal12/apod-api:latest
+
+            # Run a new container from a new image
+            sudo docker run -d -p 8888:8888 --name apod-api mail2prajwal12/apod-api
