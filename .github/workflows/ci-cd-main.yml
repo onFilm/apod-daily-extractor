@@ -6,6 +6,7 @@ on:
     workflows: ["apod-data-extractor"]
     types:
       - completed
+  workflow_dispatch:
 
 jobs:
   push-to-docker-hub:
