@@ -29,4 +29,4 @@ jobs:
             sudo docker pull mail2prajwal12/apod-api:latest
 
             # Run a new container from a new image
-            sudo docker run -d -p 8888:8888 --name apod-api mail2prajwal12/apod-api
+            sudo docker run -d -p 8888:8888 --network=apod-localnet --name apod-api mail2prajwal12/apod-api
