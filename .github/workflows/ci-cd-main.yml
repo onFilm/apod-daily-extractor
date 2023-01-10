@@ -3,7 +3,7 @@ name: ci-cd-main
 
 on:
   workflow_run:
-    workflows: ["apod-data-extractor"]
+    workflows: ["apod-data-extractor-python"]
     types:
       - completed
   workflow_dispatch:
