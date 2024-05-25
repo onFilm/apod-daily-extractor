@@ -6,7 +6,7 @@
   "scripts": {
     "start_db": "node src/server.js",
     "start": "node src/index.js",
-    "run": "json-server --watch --read-only consolidated.json"
+    "watch": "json-server --watch --read-only consolidated.json"
   },
   "author": "Prajwal",
   "license": "ISC",
