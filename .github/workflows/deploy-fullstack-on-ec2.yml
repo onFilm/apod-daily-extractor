@@ -2,10 +2,10 @@ name: Deploy Docker Containers
 
 on:
     push: 
-      branches: [ "master" ]
+      branches: [ "main" ]
     pull_request:
       branches: 
-        - master
+        - main
       types: [closed]
     workflow_dispatch:
 
