@@ -1,13 +1,10 @@
-name: Deploy Docker Containers
+name: Deploy Docker On EC2
 
 on:
-    push: 
-      branches: [ "main" ]
-    pull_request:
-      branches: 
-        - main
-      types: [closed]
-    workflow_dispatch:
+  workflow_run:
+    workflows: ["ci-cd-main"]
+    types:
+      - completed
 
 jobs:
   deploy:
