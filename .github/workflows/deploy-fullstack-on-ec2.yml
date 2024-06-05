@@ -24,7 +24,7 @@ jobs:
           ssh -o StrictHostKeyChecking=no ec2-user@${{ secrets.EC2_HOST_IP }} << EOF
             sudo docker stop apod-api || true
             sudo docker rm apod-api || true
-            sudo docker rmi apod-api || true
+            sudo docker rmi -f $(sudo docker images -q mail2prajwal12/apod-api) || true
           EOF
 
       - name: SSH into EC2 Instance and Run Docker Containers
