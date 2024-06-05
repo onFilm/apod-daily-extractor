@@ -25,12 +25,12 @@ jobs:
       - name: SSH into EC2 Instance and Stop Existing Containers
         run: |
           ssh -o StrictHostKeyChecking=no ec2-user@${{ secrets.EC2_HOST_IP }} << EOF
-            docker stop apod-api || true
+            sudo docker stop apod-api || true
           EOF
 
       - name: SSH into EC2 Instance and Run Docker Containers
         run: |
           ssh -o StrictHostKeyChecking=no ec2-user@${{ secrets.EC2_HOST_IP }} << EOF
-            docker pull mail2prajwal12/apod-api:latest
-            docker run -d --name apod-api -p 8888:8888 mail2prajwal12/apod-api:latest
+            sudo docker pull mail2prajwal12/apod-api:latest
+            sudo docker run -d --name apod-api -p 8888:8888 mail2prajwal12/apod-api:latest
           EOF
