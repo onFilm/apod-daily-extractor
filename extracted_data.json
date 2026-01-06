@@ -11148,5 +11148,15 @@
     "service_version": "v1",
     "media_type": "image",
     "url": "https://apod.nasa.gov/apod/image/2601/RedRectangle_HubbleSchmidt_1080.jpg"
+  },
+  {
+    "title": "Jupiter's Clouds in High Definition from Juno",
+    "credit": "NASA/JPL-Caltech/SwRI/MSSS; Processing & License: Thomas Thomopoulos",
+    "explanation": "How complex is Jupiter? NASA's Juno mission to Jupiter is finding the Jovian giant to be more complicated than expected. Jupiter's magnetic field has been discovered to be much different from our Earth's simple dipole field, showing several poles embedded in a complicated network more convoluted in the north than the south. Further, Juno's radio measurements show that Jupiter's atmosphere shows structure well below the upper cloud deck -- even hundreds of kilometers deep. Jupiter's newfound complexity is evident also in southern clouds, as shown in the texture and color enhanced featured image taken last month. There, planet-circling zones and belts that dominate near the equator decay into a complex miasma of continent-sized storm swirls. Juno continues in its looping elliptical orbit, swooping near the huge planet every month and exploring a slightly different sector each time around.",
+    "date": "2026-01-06",
+    "hdurl": "https://apod.nasa.gov/apod/image/2601/JupiterClouds_JunoThomopoulos_2048.jpg",
+    "service_version": "v1",
+    "media_type": "image",
+    "url": "https://apod.nasa.gov/apod/image/2601/JupiterClouds_JunoThomopoulos_1080.jpg"
   }
 ]
