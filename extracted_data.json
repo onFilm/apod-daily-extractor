@@ -11188,5 +11188,15 @@
     "copyright": "Antonella Cicala",
     "media_type": "image",
     "url": "https://apod.nasa.gov/apod/image/2601/TransitionsLight1024.jpeg"
+  },
+  {
+    "title": "Jupiter with the Great Red Spot",
+    "explanation": "Jupiter reaches its 2026 opposition today, January 10. That puts our Solar System's most massive planet opposite the Sun and near its closest and brightest for viewing from planet Earth. In fact, captured only 3 days ago this sharp telescopic snapshot reveals excellent details of the ruling gas giant's swirling cloudtops, in light zones and dark belts girdling the rapidly rotating outer planet. Jupiter's famous, persistent anticyclonic vortex, known as the Great Red Spot, is south of the equator at the lower right. But two smaller red spots are also visible, one near the top in the northernmost zone, and one close to Jupiter's south pole. And while Jupiter's Great Red Spot is known to be shrinking, it's still about the size of the Earth itself.",
+    "date": "2026-01-10",
+    "hdurl": "https://apod.nasa.gov/apod/image/2601/jupiter2026.tif",
+    "service_version": "v1",
+    "copyright": "Christopher Go",
+    "media_type": "image",
+    "url": "https://apod.nasa.gov/apod/image/2601/jupiter2026.png"
   }
 ]
