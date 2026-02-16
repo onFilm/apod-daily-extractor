@@ -11557,5 +11557,15 @@
     "service_version": "v1",
     "media_type": "image",
     "url": "https://apod.nasa.gov/apod/image/2602/freeflyer_nasa_900.jpg"
+  },
+  {
+    "title": "Unexplained Shocks Around a White Dwarf Star",
+    "credit": "ESO, K. Iłkiewicz & S. Scaringi et al.; Text: Cecilia Chirenti (NASA GSFC, UMCP, CRESST II)",
+    "explanation": "How is RXJ0528+2838 creating such shock waves? A recently discovered white dwarf star, the farther left of the two largest white spots, RXJ0528+2838, was found 730 light-years away from Earth. Most stars, when done fusing nuclei in their cores for energy, become red giant stars, the cores of which live on as faint dense white dwarfs that slowly cool down for the rest of time. White dwarfs are so dense that the only thing that stops them from collapsing further is quantum mechanics. In about 5 billion years, our Sun will become a white dwarf, too. The featured image, obtained with the European Southern Observatory’s Very Large Telescope, shows unexplained bow shocks around RXJ0528+2838, similar to the bow wave of water around a fast-moving ship. Astronomers don’t yet know what is powering these shocks, which have existed for at least 1,000 years. The red, green and blue colors represent trace amounts of glowing hydrogen, nitrogen and oxygen gas.",
+    "date": "2026-02-16",
+    "hdurl": "https://apod.nasa.gov/apod/image/2602/WhiteDwarfShock_VLT_960.jpg",
+    "service_version": "v1",
+    "media_type": "image",
+    "url": "https://apod.nasa.gov/apod/image/2602/WhiteDwarfShock_VLT_960.jpg"
   }
 ]
