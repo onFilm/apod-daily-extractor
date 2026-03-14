@@ -11793,5 +11793,15 @@
     "copyright": "William Vrbasso Text: Cecilia Chirenti (NASA GSFC, UMCP, CRESST II)",
     "media_type": "image",
     "url": "https://apod.nasa.gov/apod/image/2603/cg4_1024.jpg"
+  },
+  {
+    "title": "A Year for K2-315b",
+    "credit": "NASA Ames/JPL-Caltech/T. Pyle, Christine Daniloff, MIT",
+    "explanation": "Want to visit a planet that has 3.14 days in a year? Then plan a trip to K2-315b, an earth-sized planet orbiting around a cool, red, M dwarf star about once every 3.14 days. The exoplanet's discovery, based on publicly available data from the planet-hunting Kepler Space Telescope's extended K2 mission, was announced in 2020. K2-315b's measured orbital period in days is nearly equal to the extremely popular irrational number Pi. That puts the exoplanet so close to its parent star that its surface is likely very warm, baking-hot in fact. And this Pi planet is over 185 light-years away. So instead of trying to arrange for an interstellar vacation to K2-315b, there may be easier and more comfortable ways for you to celebrate Pi day on planet Earth.",
+    "date": "2026-03-14",
+    "hdurl": "https://apod.nasa.gov/apod/image/2603/MIT-Pi-Planet-01-PRESS.jpg",
+    "service_version": "v1",
+    "media_type": "image",
+    "url": "https://apod.nasa.gov/apod/image/2603/MIT-Pi-Planet-01-PRESS1024.jpg"
   }
 ]
