@@ -12184,5 +12184,15 @@
     "service_version": "v1",
     "media_type": "video",
     "url": "https://youtube.com/embed/MT8tg5b3b8E?si=46r2TF9THNvtq1ep"
+  },
+  {
+    "title": "Large Scale Structure of the Universe",
+    "credit": "Claire Lamman/DESI collaboration Text: Cecilia Chirenti (NASA GSFC, UMCP, CRESST II)",
+    "explanation": "This is a map of the universe. The Dark Energy Spectroscopic Instrument (DESI) at Kitt Peak National Observatory, Arizona, has finished its five-year survey. It observed more than 47 million galaxies and quasars and created a 3D map centered on the Earth. Today's featured image shows a thin slice of these data: the black gaps indicate where our Galaxy obscures distant objects. The feathery web in the inset shows the large scale structure of the universe. Light of the most distant galaxies shown here travelled for 11 billion years to reach the Earth. Galaxies cluster throughout cosmic history under the competing influences of gravity and dark energy, responsible for the accelerated expansion of the universe. Analysis of early DESI results hinted at the possibility that dark energy, described as a cosmological constant by Albert Einstein, may not be constant after all. But we still have to wait for the analysis of the now complete dataset. The nature of dark energy is the biggest mystery of cosmology.",
+    "date": "2026-04-23",
+    "hdurl": "https://apod.nasa.gov/apod/image/2604/noirlab2610c.jpg",
+    "service_version": "v1",
+    "media_type": "image",
+    "url": "https://apod.nasa.gov/apod/image/2604/noirlab2610c_1024.jpg"
   }
 ]
