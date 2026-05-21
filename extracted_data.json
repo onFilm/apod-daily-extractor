@@ -12457,5 +12457,15 @@
     "copyright": "William Vrbasso Text: Keighley Rockcliffe (NASA GSFC, UMBC CSST, CRESST II)",
     "media_type": "image",
     "url": "https://apod.nasa.gov/apod/image/2605/dark_wolf_1024.jpg"
+  },
+  {
+    "title": "A Collision of Galaxy Clusters",
+    "credit": "X-ray: NASA/CXC/CfA/C. Watson et al.; Optical: PanSTARRS; Image Processing: NASA/CXC/SAO/N. Wolk and P. Edmonds Text: Cecilia Chirenti (NASA GSFC, UMCP, CRESST II)",
+    "explanation": "This big beautiful spiral shines in X-ray light. It is about 20 times larger than our Galaxy. It belongs to Abell 2029, a galaxy cluster one billion light-years away. (To see only the galaxies, hover your cursor over the image, or follow this link.) Galaxy clusters are the largest structures in the universe that are supported by gravity. Abell 2029 is formed by thousands of galaxies, surrounded by a huge cloud of hot gas and the equivalent of hundreds of trillions times the mass of the Sun in dark matter. The spiral is made of gas, mostly hydrogen and helium, heated to tens of millions of degrees. It was found in a recent study that used data from NASA's Chandra X-ray Observatory to show that Abell 2029 had a collision with a smaller cluster four billion years ago. The collision affected the gravitational field and caused the intracluster gas to slosh, like wine moving in a wine glass, shaping the spiral.",
+    "date": "2026-05-21",
+    "hdurl": "https://apod.nasa.gov/apod/image/2605/a2029_lg.jpg",
+    "service_version": "v1",
+    "media_type": "image",
+    "url": "https://apod.nasa.gov/apod/image/2605/a2029.jpg"
   }
 ]
