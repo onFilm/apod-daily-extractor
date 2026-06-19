@@ -12735,5 +12735,15 @@
     "copyright": "X-ray: NASA/CXC/UCLA/Z. Zhu et al.; ESA/XMM-Newton; Optical: PanSTARRS; Radio: MeerKAT; Image Processing: NASA/CXC/SAO/L. Frattare and P. Edmonds Text: Cecilia Chirenti (NASA GSFC, UMCP, CRESST II)",
     "media_type": "image",
     "url": "https://apod.nasa.gov/apod/image/2606/sgrc.jpg"
+  },
+  {
+    "title": "Starry Night II",
+    "explanation": "Does this scene look familiar? It is a modern recreation of the famous painting Starry Night by Vincent van Gogh. Both the image and the painting depict a tall tree on the left, a crescent moon on the upper right, the planet Venus just to the right of the tree, a foreground horizon rising from left to right, and clouds above the horizon. Differences include that the photograph was taken in mid-April earlier this year in Cascavel, Brazil, while the painting was composed in Saint-Rémy-de-Provence, France, in 1889. The original Starry Night is considered by many to be one of the three most famous paintings in the world today and a statement about the wonders of the night sky. Today is (roughly) the anniversary of the morning that van Gogh saw the sky that he later painted in his version of Starry Night.",
+    "date": "2026-06-19",
+    "hdurl": "https://apod.nasa.gov/apod/image/2606/StarryNight2_Guerra_4080.jpg",
+    "service_version": "v1",
+    "copyright": "Rodrigo Guerra, Original Painting: Vincent van Gogh",
+    "media_type": "image",
+    "url": "https://apod.nasa.gov/apod/image/2606/StarryNight2_Guerra_960.jpg"
   }
 ]
