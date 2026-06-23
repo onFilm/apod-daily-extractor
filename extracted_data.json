@@ -12774,5 +12774,13 @@
     "copyright": "Francesco Antonucci",
     "media_type": "image",
     "url": "https://apod.nasa.gov/apod/image/2606/M27_antonucci_960.jpg"
+  },
+  {
+    "title": "Flying Past Neptune's Moon Triton",
+    "credit": "NASA; JPL, Voyager 2, Digital composition: Paul Schenk (LPI, USRA)",
+    "explanation": "What would it look like to fly past Triton, the largest moon of planet Neptune? Only one spacecraft has ever done this -- and the images of this dramatic encounter have been gathered into a video. In 1989, the Voyager 2 robotic spacecraft shot through the Neptune system with cameras blazing. Triton is slightly smaller than Earth's Moon but has ice volcanoes and a surface rich in frozen nitrogen. The first sequence in the video shows Voyager's approach to Triton, which, with the exception of an overall false green tint, appears in approximately true color. The mysterious cantaloupe terrain seen under the spacecraft soon changed from light to dark, with the terminator of night crossing underneath. After closest approach, Voyager pivoted to see the departing moon, now visible as a diminishing crescent. In 2015, the robotic New Horizons spacecraft famously flew past Pluto, an orb of similar size to Triton.",
+    "date": "2026-06-23",
+    "service_version": "v1",
+    "media_type": "other"
   }
 ]
