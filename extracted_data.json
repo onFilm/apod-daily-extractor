@@ -12987,5 +12987,15 @@
     "copyright": "JAXA, U. of Tokyo, Chiba Tech, Tokyo U. of Science, AIST, Paris Obs., IAC",
     "media_type": "image",
     "url": "https://apod.nasa.gov/apod/image/2607/Torifune_JAXA_960.jpg"
+  },
+  {
+    "title": "Red Sprites in the Tatacoa Desert",
+    "explanation": "Is there an angry Sith using force lightning in the Tatacoa Desert? This is not science fiction, but a red sprite with multiple streamers! Ordinary lightning occurs when thundercloud particles collide, lose their electrons, and build up negative charge at the cloud bottom. The cloud’s negative charge repels negative charge deeper into the Earth, leaving Earth’s surface positively charged. The opposite charges attract, reaching towards each other and superheating the air into a white strike of plasma. Red sprites are millisecond events triggered by positive cloud-to-ground lightning. They extend up into the mesosphere where the air is too thin for thunder. Their red glow comes from heated molecular nitrogen. There are several potential causes for red sprites, including that the preceding positive lightning exposes the negatively charged cloud core to the positively charged upper atmosphere, allowing those charges to connect. NASA’s Juno has observed sprites on Jupiter, indicating that sprites occur on other planets!",
+    "date": "2026-07-15",
+    "hdurl": "https://apod.nasa.gov/apod/image/2607/red_sprite.jpg",
+    "service_version": "v1",
+    "copyright": "Mario Vargas Text: Keighley Rockcliffe (NASA GSFC, UMBC CSST, CRESST II)",
+    "media_type": "image",
+    "url": "https://apod.nasa.gov/apod/image/2607/red_sprite_700.jpg"
   }
 ]
