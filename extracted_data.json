@@ -13134,5 +13134,15 @@
     "service_version": "v1",
     "media_type": "video",
     "url": "https://www.youtube.com/embed/6_cH5-daLjg?si=i9geSInQj3VMZwx3"
+  },
+  {
+    "title": "Red Sun through Wildfire Smoke",
+    "explanation": "This could be the view from an exoplanet orbiting around a red dwarf star, but it is our own Sun. This image was taken on July 22, 2026, in the Okanagan region in the Canadian province of British Columbia. Wildfire smoke from the Pacific Northwest acted as a solar filter, allowing the photographer to take this photo of the Sun directly. Several sunspots are also visible in this eerie image; just below and right of the center is AR 4493, a fast evolving, giant active solar region and sunspot group. The smoke is made of tiny particles that help block and scatter light with bluer colors, so the light we see coming from the Sun is dimmer and redder than usual (but it is never safe to stare directly at the Sun). Sunsets and sunrises are also more colorful because of the smoke. Some 6 billion years from now, the Sun will actually start to turn redder as it approaches its red giant phase.",
+    "date": "2026-07-30",
+    "hdurl": "https://apod.nasa.gov/apod/image/2607/red_sun.jpg",
+    "service_version": "v1",
+    "copyright": "Debra Ceravolo Text: Cecilia Chirenti (NASA GSFC, UMCP, CRESST II)",
+    "media_type": "image",
+    "url": "https://apod.nasa.gov/apod/image/2607/red_sun_1024.jpg"
   }
 ]
