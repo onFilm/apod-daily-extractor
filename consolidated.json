@@ -113085,6 +113085,16 @@
             "copyright": "Tom Burnett",
             "media_type": "image",
             "url": "https://apod.nasa.gov/apod/image/2608/MeteorGecko_Burnett_1080.jpg"
+        },
+        {
+            "title": "Curious Cometary Knots in the Helix Nebula",
+            "credit": "NASA, ESA, CSA, STScI, JWST; Processing: A. Pagan (STScI)",
+            "explanation": "What causes unusual knots of gas and dust in planetary nebulas? Seen also in the Ring Nebula, the Dumbbell Nebula and NGC 2392, the knots' existence was not initially predicted, and their origins are still not well understood. Pictured here is a fascinating image of part of the Helix Nebula by the James Webb Space Telescope showing tremendous detail in infrared light. The cometary knots have masses similar to the Earth but have sizes typically several times the orbit of Pluto. One hypothesis for the fragmentation and evolution of the knots includes existing gas being driven out by a less dense but highly energetic stellar wind of the central evolving star. The Helix Nebula is one of the closest examples of a planetary nebula created at the end of the life of a Sun-like star. Given a technical designation of NGC 7293, the Helix Nebula lies about 650 light-years away towards the constellation of Water Carrier (Aquarius).",
+            "date": "2026-08-04",
+            "hdurl": "https://apod.nasa.gov/apod/image/2608/HelixKnots_JWST_2000.jpg",
+            "service_version": "v1",
+            "media_type": "image",
+            "url": "https://apod.nasa.gov/apod/image/2608/HelixKnots_JWST_960.jpg"
         }
     ]
 }
