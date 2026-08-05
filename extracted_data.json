@@ -13194,5 +13194,15 @@
     "service_version": "v1",
     "media_type": "image",
     "url": "https://apod.nasa.gov/apod/image/2608/HelixKnots_JWST_960.jpg"
+  },
+  {
+    "title": "Spokes on Saturn's B Ring",
+    "explanation": "Don’t get spooked by Saturn’s ghostly spokes! Today we feature a nearly two-hour timelapse of Saturn and its rings looping forwards and backwards. A day on Saturn is only 10 hours long, so two hours of observation covers quite a bit of its rotation. If you look closely, a ghoulish shadow appears and disappears as Saturn’s B ring rotates. Decades of observation with Voyager 2, Cassini, and Hubble show the appearance of Saturn’s spokes varies with the planet’s seasons. Like Earth, Saturn’s spin axis is tilted compared to the plane of its orbit around the Sun. During Saturn’s equinox, the rings are less tilted away from the Sun and the planet receives more evenly distributed sunlight and solar wind. Although their origin is still uncertain, Saturn’s spokes may be shadows of and reflections off of dust and ice levitating above the rings caused by electromagnetic interactions between the solar wind and the planet’s magnetic field.",
+    "date": "2026-08-05",
+    "hdurl": "https://apod.nasa.gov/apod/image/2608/saturn_spokes.gif",
+    "service_version": "v1",
+    "copyright": "Brad Croslin Text: Keighley Rockcliffe (NASA GSFC, UMBC CSST, CRESST II)",
+    "media_type": "image",
+    "url": "https://apod.nasa.gov/apod/image/2608/saturn_spokes.gif"
   }
 ]
