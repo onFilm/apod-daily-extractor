@@ -113321,6 +113321,16 @@
             "copyright": "Victor Lima Text: Cecilia Chirenti (NASA GSFC, UMCP, CRESST II)",
             "media_type": "image",
             "url": "https://apod.nasa.gov/apod/image/2608/Aurora_over_Fall_800.jpg"
+        },
+        {
+            "title": "The Sky Turns Above Paranal",
+            "explanation": "At the latitude of ESO's Paranal Observatory in Chile, about 25 degrees south, Earth's rotation moves the planet's surface eastward at over 1,500 kilometers per hour. And while that's faster than the speed of sound at sea level, the motion is imperceptible. Still, that motion can be revealed in the apparent rotation of the night sky by photographing star trails. This star trail image was composed from a digital stack of 300 consecutive 25-second exposures made with a camera fixed to a tripod to trace the star trail arcs. The graceful arcs are concentric and centered at the south celestial pole, the southern hemisphere extension of Earth's axis of rotation into space. One of the observatory's operating 1.8 meter auxiliary telescopes, AT 3, appears beneath the south celestial pole, faintly illuminated in the foreground of this well-planned scene from a rotating planet.",
+            "date": "2026-08-28",
+            "hdurl": "https://apod.nasa.gov/apod/image/2608/TheSkyTurnsAboveParanal.jpg",
+            "service_version": "v1",
+            "copyright": "Osvaldo Castillo",
+            "media_type": "image",
+            "url": "https://apod.nasa.gov/apod/image/2608/TheSkyTurnsAboveParanal_1024.jpg"
         }
     ]
 }
